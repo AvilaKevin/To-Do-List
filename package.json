@@ -2,7 +2,7 @@
   "name": "to_do_list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ViperDex/To-Do-List",
+  "homepage": "https://viperdex.github.io/To-Do-List",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
