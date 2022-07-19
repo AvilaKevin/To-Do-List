@@ -1,10 +1,12 @@
 import React from 'react';
 
 function useLocalStorage(itemName, initialValue) {
+  // ESTATES
   const [error, setError] = React.useState(false);
   const [loading, setLoading] = React.useState(true);
   const [item, setItem] = React.useState(initialValue);
 
+  //TO DO LOADING AND ERROR
   React.useEffect(() => {
     setTimeout(() => {
       try {
@@ -26,6 +28,7 @@ function useLocalStorage(itemName, initialValue) {
     }, 1000);
   });
 
+  //TO DO SAVE ITEM
   const saveItem = (newItem) => {
     try {
       const stringifiedItem = JSON.stringify(newItem);
