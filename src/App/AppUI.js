@@ -11,6 +11,7 @@ import { TodosError } from "../Components/TodosError";
 import { EmptyTodos } from "../Components/EmptyTodos";
 import { Modal } from "../Modal";
 import "../index.css";
+import ToDoIcon from '../Icons/002-done.png'
 
 
 function AppUI() {
@@ -30,7 +31,7 @@ function AppUI() {
         <div className="top-section">
           <img
             className="top-section__img"
-            src="https://cdn-icons.flaticon.com/png/512/3082/premium/3082827.png?token=exp=1657302294~hmac=e0e75f74f33c662b83c355c551daa6ef"
+            src={ToDoIcon}
             alt="Imagen de to do"
           ></img>
           <h1 className="top-section__h1">My To-Do</h1>
