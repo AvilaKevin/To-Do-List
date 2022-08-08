@@ -1,12 +1,35 @@
-.container {
+.todoList_container {
   width: 80%;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .contaienr__ul {
   width: 100%;
   margin: 0;
-  padding: 0 0 56px 0;
+  padding: 0 0 15px 0;
   list-style: none;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.contaienr__ul::-webkit-scrollbar {
+  display: none;
+}
+
+.contaienr__ul:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+.contaienr__ul::-webkit-scrollbar-thumb {
+  background-color: #61dafa;
+  width: 10px;
+  border-radius: 8px;
+}
+
+.contaienr__ul::-webkit-scrollbar {
+  width: 8px;
 }
